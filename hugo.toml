@@ -1,0 +1,31 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Rasam's Portfolio"
+theme = "coder"
+
+[params]
+    author = "Rasoul Amirzadeh"
+    description = "My personal portfolio website"
+    keywords = ["portfolio", "AI", "Machine Learning"]
+    avatarURL = "/images/avatar.jpg"
+    favicon = "/images/favicon.ico"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "Articles"
+    url = "/articles/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
